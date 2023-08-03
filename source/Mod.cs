@@ -17,11 +17,11 @@ namespace CodeExplorer
     {
       Harmony = new Harmony(Id);
       Harmony.PatchAll();
-      g
-      Log("Initialized Test");
+
+      Log("Initialized");
     }
 
-    public static void Log(string message) => Verse.Log.Message(PrefixMessage(message));
+    public static void AALog(string message) => Verse.Log.Message(PrefixMessage(message));
     public static void Warning(string message) => Verse.Log.Warning(PrefixMessage(message));
     public static void Error(string message) => Verse.Log.Error(PrefixMessage(message));
     public static void Message(string message) => Messages.Message(message, MessageTypeDefOf.TaskCompletion, false);
