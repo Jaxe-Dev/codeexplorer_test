@@ -9,7 +9,7 @@ namespace CodeExplorer
   {
     public const string Id = "CodeExplorer";
     public const string Name = "CodeExplorer";
-    public const string Version = "1.2";
+    public const string Version = "1.3";
 
     public static readonly Harmony Harmony;
 
