@@ -19,7 +19,7 @@ namespace CodeExplorer
       Harmony.PatchAll();
 
       Log("Initialized");
-    }
+    }222
 
     public static void AALog(string message) => Verse.Log.Message(PrefixMessage(message));
     public static void Warning(string message) => Verse.Log.Warning(PrefixMessage(message));
