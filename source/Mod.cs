@@ -15,16 +15,15 @@ namespace CodeExplorer
 
     static Mod()
     {
-      Harmony = new Harmony(Id);
+      Harmony = new Harmony(Id); asdsad
       Harmony.PatchAll();
 
       Log("Initialized222222222");
     }222
-
+adasdsadasda
     public static void AALog(string message) => Verse.Log.Message(PrefixMessage(message));
     public static void Warning(string message) => Verse.Log.Warning(PrefixMessage(message));
     public static void Error(string message) => Verse.Log.Error(PrefixMessage(message));
-    public static void Message(string message) => Messages.Message(message, MessageTypeDefOf.TaskCompletion, false);
     private static string PrefixMessage(string message) => $"[{Name} v{Version}] {message}";
   }
 }
