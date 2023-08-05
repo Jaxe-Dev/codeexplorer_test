@@ -18,7 +18,7 @@ namespace CodeExplorer
       Harmony = new Harmony(Id);
       Harmony.PatchAll();
 
-      Log("Initialized");
+      Log("Initialized222222222");
     }222
 
     public static void AALog(string message) => Verse.Log.Message(PrefixMessage(message));
